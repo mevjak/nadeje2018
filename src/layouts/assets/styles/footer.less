@@ -1,0 +1,70 @@
+.footer {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media (max-width: @grid-float-breakpoint) {
+    text-align: center;
+  }
+
+  .navbar-brand {
+    margin-left: 15px;
+    margin-right: 25px;
+    width: 181px;
+    background-image: url('../images/logo-nadeje-footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    font-size: 0;
+  }
+
+  .navbar-nav {
+
+    &.navbar-right {
+      margin-right: 10px;
+    }
+
+    li > a {
+      color: #fff;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+
+    li.section > a, li > a.section, li.current > a, li > a.current {
+      font-weight: bold;
+    }
+
+    li > a:hover, li > a:active {
+      text-decoration: underline;
+      background-color: #000;
+    }
+
+    a.social {
+      width: 40px;
+      height: 40px;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: transparent;
+      font-size: 0;
+      margin-top: 5px;
+    }
+
+    a.social-fb {
+      background-image: url('../images/icon-fb.png');
+    }
+    a.social-tw {
+      background-image: url('../images/icon-tw.png');
+    }
+    a.social-gg {
+      background-image: url('../images/icon-gplus.png');
+    }
+
+    @media (max-width: @grid-float-breakpoint) {
+      a.social {
+        width: 100%
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "eventYear": 2017,
+    "participantCount": 122,
+    "moneyRaised": 62611
+  },
+  {
+    "eventYear": 2016,
+    "participantCount": 128,
+    "moneyRaised": 53019
+  },
+  {
+    "eventYear": 2015,
+    "participantCount": 113,
+    "moneyRaised": 36466
+  },
+  {
+    "eventYear": 2014,
+    "participantCount": 87,
+    "moneyRaised": 32169
+  },
+  {
+    "eventYear": 2013,
+    "participantCount": 79,
+    "moneyRaised": 14164
+  },
+  {
+    "eventYear": 2012,
+    "participantCount": 107,
+    "moneyRaised": 32452
+  },
+  {
+    "eventYear": 2011,
+    "participantCount": 53,
+    "moneyRaised": 21696
+  }
+]

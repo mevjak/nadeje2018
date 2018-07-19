@@ -1,0 +1,173 @@
+@import (once) "main";
+
+h1 {
+  text-align: center;
+  //  margin: 0 25%;
+  margin-top: 50px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-size: 19px;
+  color: @custom-heading-color;
+  background: url('../images/bg-h1.png') repeat-x center;
+
+  span {
+    display: inline-block;
+    padding: 0 20px;
+    background: #fff;
+  }
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.page-content {
+  p {
+    a, a:hover, a:active {
+      text-decoration: underline;
+    }
+  }
+
+  p.author {
+    a, a:hover, a:active {
+      text-decoration: none;
+    }
+  }
+
+  p.jumbo {
+    font-weight: bold;
+    font-size: 28px;
+  }
+
+  h2, h3 {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid @gray-lighter;
+    color: @custom-heading-color;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+}
+
+.articles-sidebar {
+  margin-top: -25px;
+  margin-bottom: 50px;
+}
+
+.articles-sidebar h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+h2.page {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid @gray-lighter;
+  color: @custom-heading-color;
+}
+
+h2.centered {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid @gray-lighter;
+}
+
+
+blockquote.about-us {
+  border-left: none;
+  padding: 0 60px;
+
+  @media (max-width: @grid-float-breakpoint) {
+    padding: 0;
+  }
+}
+
+blockquote.motto {
+  border-left: none;
+  padding: 0;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  text-align: center;
+
+  p {
+    //color: #1B9AD1;
+    color: rgba(53, 94, 179, 1);
+    font-size: 32px;
+    font-family: @font-family-serif;
+  }
+
+  footer {
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  footer:before {
+    content: '';
+  }
+}
+
+.header {
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+  h1 {
+    font-size: 34px;
+    color: @gray-light;
+  }
+
+  .breadcrumb {
+  }
+}
+
+
+.address {
+  h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: @gray-light;
+  }
+
+  address {
+    strong {
+      font-size: 22px;
+    }
+  }
+}
+
+.bank-info {
+  .well;
+  text-align: center;
+  padding: 30px 0;
+  background: #fdfdfd;
+
+  .account {
+    font-size: 30px;
+  }
+}
+
+.container-outer-partners {
+
+  h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+}
+
+.caption {
+  h4 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}

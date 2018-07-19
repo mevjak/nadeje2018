@@ -1,0 +1,35 @@
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  border: none;
+  background: transparent; //#edeff4;
+
+  .navbar-brand {
+    margin-left: 10px;
+    width: 291px;
+    height: 53px;
+    background-image: url('../images/logo-nadeje-header.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: transparent;
+    font-size: 0;
+  }
+  
+  .navbar-nav {
+    text-transform: uppercase;
+
+    li > a {
+      color: #000;
+      font-weight: bold;
+    }
+
+    li.section > a, li > a.section, li.current > a, li > a.current   {
+      color: #777;
+    }
+
+    li > a:hover {
+      text-decoration: underline;
+    }
+  }
+}

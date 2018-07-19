@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Věra Engeová",
+    "description": "Hlavní duše, která nás ostatní žene do práce. Pečlivá, důsledná, se smyslem pro detail. A s dětmi to fakt umí!",
+    "image": "vera.jpg"
+  },
+  {
+    "name": "Andrea Kotusová",
+    "description": "Haló, haló! Proč je peněz málo? Hlásím tedy jako zvon, připějte nám milión!",
+    "image": "andrea.jpg"
+  },
+  {
+    "name": "Kačka Fikarová",
+    "description": "Naše finanční ředitelka. Když se do něčeho zakousne, tak se jen tak nepustí.",
+    "image": "kacka.jpg"
+  },
+  {
+    "name": "Mirek Evják",
+    "description": "Běžec, ajťák, webmaster. Neřízená střela, která ale ve většině případů trefí cíl.",
+    "image": "mirek.jpg"
+  },
+  {
+    "name": "Vláďa Enge",
+    "description": "Moc toho nenamluví, ale o to víc toho udělá.",
+    "image": "vlada.jpg"
+  },
+  {
+    "name": "Honza Fikar",
+    "description": "Vždy s úsměvem na rtu. Šikovné ruce, které nikdy neodmítnou pomoc.",
+    "image": "honza.jpg"
+  }
+]

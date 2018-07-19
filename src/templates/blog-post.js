@@ -1,83 +1,68 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
-import Content, { HTMLContent } from '../components/Content'
 
-export const BlogPostTemplate = ({
-  content,
-  contentComponent,
-  description,
-  tags,
-  title,
-  helmet,
-}) => {
-  const PostContent = contentComponent || Content
+import ArticleMeta from '../components/article/ArticleMeta';
 
-  return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p>{description}</p>
-            <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
-          </div>
-        </div>
-      </div>
-    </section>
-  )
+class BlogPostTemplate extends React.Component {
+    render() {
+        const post = this.props.data.markdownRemark;
+        const siteTitle = this.props.data.site.siteMetadata.title;
+        const {previous, next} = this.props.pathContext;
+
+        return (
+            <div>
+                <Helmet title={`${post.frontmatter.title} | ${siteTitle}`}/>
+
+                <h1><span>Články</span></h1>
+
+                <article>
+                    <div className="row">
+                        <div className="col-md-10 col-md-offset-1">
+                            <p className="featured-image"><img src=""/></p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-8 col-md-offset-2">
+                            <div className="page-content">
+                                <h2>{post.frontmatter.title}</h2>
+
+                                <ArticleMeta meta={{author: post.frontmatter.author, date: post.frontmatter.date}}/>
+
+                                <div dangerouslySetInnerHTML={{__html: post.html}}/>
+
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div className="row">
+                    <div className="col-md-8 col-md-offset-2">
+                        <nav className="articles-nav">
+                            <ul className="pager">
+                                <li className="previous">
+                                    <Link to={'/clanky/'}>Všechny články <span aria-hidden="true">&rarr;</span></Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        )
+    }
 }
 
-BlogPostTemplate.propTypes = {
-  content: PropTypes.string.isRequired,
-  contentComponent: PropTypes.func,
-  description: PropTypes.string,
-  title: PropTypes.string,
-  helmet: PropTypes.instanceOf(Helmet),
-}
-
-const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
-
-  return (
-    <BlogPostTemplate
-      content={post.html}
-      contentComponent={HTMLContent}
-      description={post.frontmatter.description}
-      helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
-      tags={post.frontmatter.tags}
-      title={post.frontmatter.title}
-    />
-  )
-}
-
-BlogPost.propTypes = {
-  data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
-
-export default BlogPost
+export default BlogPostTemplate
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
     markdownRemark(id: { eq: $id }) {
       id
       html
@@ -86,7 +71,8 @@ export const pageQuery = graphql`
         title
         description
         tags
+        author
       }
     }
   }
-`
+`;

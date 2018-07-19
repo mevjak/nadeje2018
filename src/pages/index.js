@@ -1,76 +1,145 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
+import {Carousel, Table} from 'react-bootstrap'
+import {withPrefix} from 'gatsby-link'
+import { v4 } from 'uuid'
 
-export default class IndexPage extends React.Component {
-  render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+import Article from '../components/article/Article'
 
-    return (
-      <section className="section">
-        <div className="container">
-          <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
-          </div>
-          {posts
-            .map(({ node: post }) => (
-              <div
-                className="content"
-                style={{ border: '1px solid #eaecee', padding: '2em 4em' }}
-                key={post.id}
-              >
-                <p>
-                  <Link className="has-text-primary" to={post.fields.slug}>
-                    {post.frontmatter.title}
-                  </Link>
-                  <span> &bull; </span>
-                  <small>{post.frontmatter.date}</small>
-                </p>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button is-small" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </div>
-            ))}
-        </div>
-      </section>
-    )
-  }
+class IndexPage extends React.Component {
+    render() {
+        const siteTitle = this.props.data.site.siteMetadata.title;
+        const posts = this.props.data.allMarkdownRemark.edges;
+        const history = this.props.data.allHistoryJson.edges;
+
+        return (
+            <div>
+                <Helmet title={siteTitle}/>
+
+                <blockquote className="motto">
+                    <p>Kdo nedělá nic pro druhé, nedělá nic pro sebe.</p>
+                    <footer>Johann Wolfgang von Goethe</footer>
+                </blockquote>
+
+                <Carousel>
+                    <Carousel.Item>
+                        <img src={withPrefix('/images/banner-beh-nadeje.jpg')}/>
+                        <Carousel.Caption>
+                            <h1>Běh naděje</h1>
+                            <p className="subtitle">Sportovně humanitární akce inspirovaná <strong>Během TERRYHO
+                                FOXE</strong>.</p>
+                            <p><Link className="button" to={'/akce/beh-nadeje'} role="button">Pojďte s námi proti
+                                rakovině!</Link></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img src={withPrefix('/images/banner-skrabalek.jpg')}/>
+                        <Carousel.Caption>
+                            <h1>Memoriál Petra Škrabálka</h1>
+                            <p className="subtitle">Tradiční závod v přespolním běhu, který se pořádá již <strong>od
+                                roku 1973</strong>.</p>
+                            <p><Link className="button" to={'/akce/memorial-petra-skrabalka'} role="button">Pojďte s
+                                námi proti rakovině!</Link></p>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                </Carousel>
+
+                <div className="row">
+                    <div className="col-md-9">
+                        <h3>Aktuální články</h3>
+
+                        {posts.map(({node}) => {
+                            return (
+                                <Article key={node.fields.slug} article={node}/>
+                            )
+                        })}
+
+                    </div>
+
+                    <div className="col-md-3">
+
+                        <div className="banner">
+                            <h4><span className="glyphicon glyphicon-calendar" aria-hidden="true"/>&nbsp; Běh naděje 2018</h4>
+                            <p className="lead">8. září, 10:00</p>
+                        </div>
+
+                        <h4 className="banner-heading">Historie běhů v Jiřetíně</h4>
+                        <div className="well">
+                            <Table condensed striped>
+                                <thead>
+                                <tr>
+                                    <th>Rok</th>
+                                    <th>Účastníků</th>
+                                    <th style={{textAlign: 'right'}}>Výtěžek Kč</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {history.map(({node}) => {
+                                    return (
+                                        <tr key={v4()}>
+                                            <td>{node.eventYear}</td>
+                                            <td style={{textAlign: 'center'}}>{node.participantCount}</td>
+                                            <td style={{textAlign: 'right'}}>{node.moneyRaised}</td>
+                                        </tr>
+                                    )
+                                })}
+                                </tbody>
+                            </Table>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-md-8">
+                        <nav className="articles-nav">
+                            <ul className="pager">
+                                <li className="previous">
+                                    <Link to={'/clanky/'}>Všechny články <span aria-hidden="true">&rarr;</span></Link>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        )
+    }
 }
 
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
-}
+export default IndexPage
 
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          excerpt(pruneLength: 400)
-          id
+          excerpt
           fields {
             slug
           }
           frontmatter {
+            date(formatString: "DD MMMM, YYYY")
             title
-            templateKey
-            date(formatString: "MMMM DD, YYYY")
+            author
           }
         }
       }
     }
+    allHistoryJson {
+      edges {
+        node {
+          eventYear
+          participantCount
+          moneyRaised
+        } 
+      }
+    }
   }
-`
+`;

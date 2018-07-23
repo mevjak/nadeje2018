@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import {Carousel, Table} from 'react-bootstrap'
-import {withPrefix} from 'gatsby-link'
+import {Table} from 'react-bootstrap'
 import { v4 } from 'uuid'
 
 import Article from '../components/article/Article'
+import MyCarousel from '../components/carousel/MyCarousel'
 
 class IndexPage extends React.Component {
     render() {
@@ -22,28 +22,7 @@ class IndexPage extends React.Component {
                     <footer>Johann Wolfgang von Goethe</footer>
                 </blockquote>
 
-                <Carousel>
-                    <Carousel.Item>
-                        <img src={withPrefix('/images/banner-beh-nadeje.jpg')}/>
-                        <Carousel.Caption>
-                            <h1>Běh naděje</h1>
-                            <p className="subtitle">Sportovně humanitární akce inspirovaná <strong>Během TERRYHO
-                                FOXE</strong>.</p>
-                            <p><Link className="button" to={'/akce/beh-nadeje'} role="button">Pojďte s námi proti
-                                rakovině!</Link></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img src={withPrefix('/images/banner-skrabalek.jpg')}/>
-                        <Carousel.Caption>
-                            <h1>Memoriál Petra Škrabálka</h1>
-                            <p className="subtitle">Tradiční závod v přespolním běhu, který se pořádá již <strong>od
-                                roku 1973</strong>.</p>
-                            <p><Link className="button" to={'/akce/memorial-petra-skrabalka'} role="button">Pojďte s
-                                námi proti rakovině!</Link></p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                <MyCarousel/>
 
                 <div className="row">
                     <div className="col-md-9">
@@ -64,7 +43,7 @@ class IndexPage extends React.Component {
                             <p className="lead">8. září, 10:00</p>
                         </div>
 
-                        <h4 className="banner-heading">Historie běhů v Jiřetíně</h4>
+                        <h4 className="banner-heading">Historie běhů v Jiřetíně p.B.</h4>
                         <div className="well">
                             <Table condensed striped>
                                 <thead>

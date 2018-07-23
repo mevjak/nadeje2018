@@ -46,14 +46,15 @@ export const blogQuery = graphql`
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
-          excerpt
+          excerpt(pruneLength: 250)
           fields {
             slug
           }
           frontmatter {
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "DD.MM.YYYY")
             title
             author
+            description
           }
         }
       }

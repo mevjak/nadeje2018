@@ -69,8 +69,9 @@ export const tagPageQuery = graphql`
           }
           frontmatter {
             title
-            date
+            date(formatString: "DD.MM.YYYY")
             author
+            description
           }
         }
       }

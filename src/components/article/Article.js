@@ -18,7 +18,8 @@ class Article extends React.Component {
 
                 <ArticleMeta meta={{author: article.frontmatter.author, date: article.frontmatter.date}}/>
 
-                <p dangerouslySetInnerHTML={{ __html: article.excerpt }} />
+                {/*<p dangerouslySetInnerHTML={{ __html: article.excerpt }} />*/}
+                <p>{ article.frontmatter.description } </p>
 
                 <p>
                     <Link to={article.fields.slug}>Celý článek <span aria-hidden="true">&rarr;</span></Link>

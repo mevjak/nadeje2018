@@ -72,6 +72,13 @@ export const tagPageQuery = graphql`
             date(formatString: "DD.MM.YYYY")
             author
             description
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 900, maxHeight: 150) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
+            }
           }
         }
       }

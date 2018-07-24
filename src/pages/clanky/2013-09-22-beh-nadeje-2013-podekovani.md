@@ -4,6 +4,7 @@ title: Běh naděje 2013 - poděkování
 author: Miroslav Evják
 date: 2013-09-22T17:08:00.000Z
 description: Chtěli bychom touto cestou poděkovat všem, kteří přispěli finanční částkou, pomocí při organizaci nebo svou aktivní účastí na humanitární akci "Běh naděje" v Jiřetíně pod Bukovou. I přes nepříznivé počasí se běhu zúčastnilo 79 běžců.
+featuredImage: "./images/bn2011.jpg"
 tags:
   - běh naděje
 ---

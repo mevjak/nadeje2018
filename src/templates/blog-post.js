@@ -1,8 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import Img from 'gatsby-image'
 
-import ArticleMeta from '../components/article/ArticleMeta';
+import ArticleMeta from '../components/article/ArticleMeta'
 
 class BlogPostTemplate extends React.Component {
     render() {
@@ -19,7 +20,9 @@ class BlogPostTemplate extends React.Component {
                 <article>
                     <div className="row">
                         <div className="col-md-10 col-md-offset-1">
-                            <p className="featured-image"><img src=""/></p>
+                            <p className="featured-image">
+                                <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
+                            </p>
                         </div>
                     </div>
                     <div className="row">
@@ -72,6 +75,13 @@ export const pageQuery = graphql`
         description
         tags
         author
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 900, maxHeight: 300) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
+            }
       }
     }
   }

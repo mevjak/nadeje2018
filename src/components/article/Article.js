@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { withPrefix } from 'gatsby-link'
+import Img from 'gatsby-image'
 
 import ArticleMeta from './ArticleMeta'
 
@@ -11,7 +11,7 @@ class Article extends React.Component {
         return (
             <article>
                 <div className="featured-image">
-                    <img src={article.frontmatter.image}/>
+                    <Img sizes={article.frontmatter.featuredImage.childImageSharp.sizes} />
                 </div>
 
                 <Link to={article.fields.slug}><h2>{article.frontmatter.title}</h2></Link>

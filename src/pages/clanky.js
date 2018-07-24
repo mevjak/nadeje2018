@@ -55,6 +55,13 @@ export const blogQuery = graphql`
             title
             author
             description
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 900, maxHeight: 150) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
+            }
           }
         }
       }

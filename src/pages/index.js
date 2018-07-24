@@ -111,6 +111,13 @@ export const pageQuery = graphql`
             title
             author
             description
+            featuredImage {
+                childImageSharp{
+                    sizes(maxWidth: 900, maxHeight: 150) {
+                        ...GatsbyImageSharpSizes
+                    }
+                }
+            }
           }
         }
       }

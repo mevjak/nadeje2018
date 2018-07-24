@@ -4,6 +4,7 @@ title: Běh naděje 2015 - poděkování
 author: Miroslav Evják
 date: 2015-09-13T17:08:00.000Z
 description: Děkujeme všem dobrým lidem, kteří přispěli finanční částkou, pomocí při organizaci nebo svou aktivní účastí na humanitární akci "Běh naděje" v Jiřetíně pod Bukovou.
+featuredImage: "./images/bn2011.jpg"
 tags:
   - běh naděje
 ---

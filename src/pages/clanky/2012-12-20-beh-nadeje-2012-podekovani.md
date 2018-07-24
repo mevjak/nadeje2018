@@ -4,6 +4,7 @@ title: Běh naděje 2012 - poděkování
 author: Miroslav Evják
 date: 2012-12-20T10:10:00.000Z
 description: Letošní ročník Běhu naděje překonal ročník předchozí. Chtěli bychom touto cestou poděkovat všem dobrým lidem, kteří přispěli finanční částkou, pomocí při organizaci nebo svou aktivní účastí na humanitární akci "Běh naděje" v Jiřetíně pod Bukovou.
+featuredImage: "./images/bn2011.jpg"
 tags:
   - běh naděje
 ---

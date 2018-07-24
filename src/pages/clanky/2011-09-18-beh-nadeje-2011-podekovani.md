@@ -4,6 +4,7 @@ title: Běh naděje 2011 - poděkování
 author: Miroslav Evják
 date: 2011-09-18T17:08:00.000Z
 description: Chtěli bychom touto cestou poděkovat všem dobrým lidem, kteří přispěli finanční částkou, pomocí při organizaci nebo svou aktivní účastí na humanitární akci "Běh naděje".
+featuredImage: "./images/bn2011.jpg"
 tags:
   - běh naděje
 ---

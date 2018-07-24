@@ -7,6 +7,13 @@ module.exports = {
     },
     pathPrefix: '/nadeje2011',
     plugins: [
+        `gatsby-transformer-json`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                path: `${__dirname}/src/data/`,
+            },
+        },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -42,13 +49,6 @@ module.exports = {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
                 //trackingId: `ADD YOUR TRACKING ID HERE`,
-            },
-        },
-        `gatsby-transformer-json`,
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                path: `${__dirname}/src/data/`,
             },
         },
         `gatsby-plugin-less`,

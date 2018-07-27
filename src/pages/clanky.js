@@ -57,7 +57,7 @@ export const blogQuery = graphql`
             description
             featuredImage {
                 childImageSharp{
-                    sizes(maxWidth: 900, maxHeight: 150) {
+                    sizes(maxWidth: 900, maxHeight: 180) {
                         ...GatsbyImageSharpSizes
                     }
                 }

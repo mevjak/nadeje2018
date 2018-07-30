@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import {Table} from 'react-bootstrap'
 import { v4 } from 'uuid'
+import NumberFormat from 'react-number-format';
 
 import Article from '../components/article/Article'
 import MyCarousel from '../components/carousel/MyCarousel'
@@ -50,7 +51,7 @@ class IndexPage extends React.Component {
                                 <tr>
                                     <th>Rok</th>
                                     <th>Účastníků</th>
-                                    <th style={{textAlign: 'right'}}>Výtěžek Kč</th>
+                                    <th style={{textAlign: 'right'}}>Výtěžek</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -59,7 +60,9 @@ class IndexPage extends React.Component {
                                         <tr key={v4()}>
                                             <td>{node.eventYear}</td>
                                             <td style={{textAlign: 'center'}}>{node.participantCount}</td>
-                                            <td style={{textAlign: 'right'}}>{node.moneyRaised}</td>
+                                            <td style={{textAlign: 'right'}}>
+                                                <NumberFormat value={node.moneyRaised} displayType={'text'} thousandSeparator={' '} suffix={',- Kč'} />
+                                            </td>
                                         </tr>
                                     )
                                 })}
@@ -113,7 +116,7 @@ export const pageQuery = graphql`
             description
             featuredImage {
                 childImageSharp{
-                    sizes(maxWidth: 900, maxHeight: 150) {
+                    sizes(maxWidth: 900, maxHeight: 200, cropFocus: CENTER) {
                         ...GatsbyImageSharpSizes
                     }
                 }

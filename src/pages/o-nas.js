@@ -48,11 +48,9 @@ class AboutPage extends Component {
 
                     <p>Při organizaci našich akcí se neobejdeme bez obětavé pomoci našich kamarádů dobrovolníků:</p>
 
-                    <p><i>Josef Kucin, Stanislav Valenta, Josef Věříš, Aleš Rydval, Lenka Valentová, Eva Nicková, Andrea
-                        Kotusová, Václav Fikar st., Petr Apeltauer, Marie Evjáková, Dominika Typltová, Jiří Chlum, Ladislava
-                        Štěpánková, Andy Engeová, Andreas Rolli, Anežka Evjáková, Jakub Jícha, Luboš Lazarák, Iva Müllerová,
-                        Radka Houfková, Šárka Petráňová, Miroslav Evják ml., Jan Fikar ml., Petr Král, Jana Petráňová,
-                        Aranka Rosíková a Gudrun Neumannová.</i></p>
+                    <p><i>Stanislav Valenta, Aleš Rydval, Eva Nicková, Jiří Chlum, Ladislava Štěpánková, Andy Engeová,
+                        Andreas Rolli, Anežka Evjáková, Radka Houfková, Aranka Rosíková, Radka&nbsp;Kittelová, Šárka Petráňová,
+                        Miroslav Evják ml., Jan Fikar ml., Jana Petráňová.</i></p>
 
                     <p><span className="glyphicon glyphicon-heart" aria-hidden="true"/></p>
 

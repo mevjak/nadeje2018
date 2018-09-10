@@ -39,9 +39,14 @@ class IndexPage extends React.Component {
 
                     <div className="col-md-3">
 
+                        {/*<div className="banner">*/}
+                            {/*<h4><span className="glyphicon glyphicon-calendar" aria-hidden="true"/>&nbsp; Běh naděje 2018</h4>*/}
+                            {/*<p className="lead">8. září, 10:00</p>*/}
+                        {/*</div>*/}
+
                         <div className="banner">
-                            <h4><span className="glyphicon glyphicon-calendar" aria-hidden="true"/>&nbsp; Běh naděje 2018</h4>
-                            <p className="lead">8. září, 10:00</p>
+                            <h4><span className="glyphicon glyphicon-piggy-bank" aria-hidden="true"/>&nbsp; Výtěžek sbírky 2018</h4>
+                            <p className="lead">79 788,-</p>
                         </div>
 
                         <h4 className="banner-heading">Historie běhů v Jiřetíně p.B.</h4>

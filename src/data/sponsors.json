@@ -1,122 +1,127 @@
 [
-    {
-        "name": "Obec Jiřetín pod Bukovou",
-        "web": "http://www.jiretinpb.cz",
-        "image": "jiretin-pod-bukovou.png"
-    },
-    {
-        "name": "Obec Albrechtice v Jizerských horách",
-        "web": "http://www.albrechtice-jh.cz/",
-        "image": "albrechtice.png"
-    },
-    {
-        "name": "Obec Josefův Důl",
-        "web": "http://josefuvdul.eu",
-        "image": "josefuv-dul.png"
-    },
-    {
-        "name": "Manželé Benediktovi",
-        "web": "#",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Detoa Albrechtice",
-        "web": "http://www.detoa.cz",
-        "image": "detoa.png"
-    },
-    {
-        "name": "Aleš Zeman – Zemní práce",
-        "web": "#",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "JAVECAR Jaroslav Veverka",
-        "web": "#",
-        "image": "javecar.png"
-    },
-    {
-        "name": "P-Print s.r.o.",
-        "web": "http://www.pprint.cz",
-        "image": "p-print.png"
-    },
-    {
-        "name": "Technické služby Albrechtice s.r.o.",
-        "web": "#",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Alfasped Logistik s.r.o.",
-        "web": "http://www.alfasped.cz",
-        "image": "alfasped.png"
-    },
-    {
-        "name": "SCANtech s.r.o.",
-        "web": "http://www.scantech.cz",
-        "image": "scantech.png"
-    },
-    {
-        "name": "Fa Sucharda",
-        "web": "http://www.fasuchardaivan.cz",
-        "image": "sucharda.png"
-    },
-    {
-        "name": "Sygnex Group s.r.o.",
-        "web": "http://www.sygnex.cz",
-        "image": "sygnex-group.png"
-    },
-    {
-        "name": "Svaner servis s.r.o.",
-        "web": "#",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Senátor Jaroslav Zeman",
-        "web": "http://www.jaroslavzeman.cz",
-        "image": "zeman.png"
-    },
-    {
-        "name": "Sport Vespo",
-        "web": "http://www.vespo.cz",
-        "image": "vespo.jpg"
-    },
-    {
-        "name": "Štěpin - stavební firma",
-        "web": "http://www.stepin.cz",
-        "image": "stepin.png"
-    },
-    {
-        "name": "Penzion Světlý vrch - manželé Huškovi",
-        "web": "http://www.penzionjizerskehory.cz",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Cukrárna u Voborníků",
-        "web": "http://www.pensiontereza.cz",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Penzion Tipos",
-        "web": "http://albrechticetichy.wgz.cz/rubriky/penzion-tip",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Penzion Max",
-        "web": "http://www.maxpension.cz",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Potraviny Jiřetín pod Bukovou",
-        "web": "#",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Řeznickví U Tomášů",
-        "web": "#",
-        "image": "sponsor.png"
-    },
-    {
-        "name": "Touche",
-        "web": "http://www.touche.cz",
-        "image": "sponsor.png"
-    }
+  {
+    "name": "Obec Jiřetín pod Bukovou",
+    "web": "http://www.jiretinpb.cz",
+    "image": "jiretin-pod-bukovou.png"
+  },
+  {
+    "name": "Obec Albrechtice v Jizerských horách",
+    "web": "http://www.albrechtice-jh.cz/",
+    "image": "albrechtice.png"
+  },
+  {
+    "name": "Obec Josefův Důl",
+    "web": "http://josefuvdul.eu",
+    "image": "josefuv-dul.png"
+  },
+  {
+    "name": "Manželé Benediktovi",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Detoa Albrechtice",
+    "web": "http://www.detoa.cz",
+    "image": "detoa.png"
+  },
+  {
+    "name": "Aleš Zeman – Zemní práce",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "JAVECAR Jaroslav Veverka",
+    "web": "#",
+    "image": "javecar.png"
+  },
+  {
+    "name": "P-Print s.r.o.",
+    "web": "http://www.pprint.cz",
+    "image": "p-print.png"
+  },
+  {
+    "name": "Technické služby Albrechtice s.r.o.",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Alfasped Logistik s.r.o.",
+    "web": "http://www.alfasped.cz",
+    "image": "alfasped.png"
+  },
+  {
+    "name": "SCANtech s.r.o.",
+    "web": "http://www.scantech.cz",
+    "image": "scantech.png"
+  },
+  {
+    "name": "Fa Sucharda",
+    "web": "http://www.fasuchardaivan.cz",
+    "image": "sucharda.png"
+  },
+  {
+    "name": "Sygnex Group s.r.o.",
+    "web": "http://www.sygnex.cz",
+    "image": "sygnex-group.png"
+  },
+  {
+    "name": "Svaner servis s.r.o.",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Senátor Jaroslav Zeman",
+    "web": "http://www.jaroslavzeman.cz",
+    "image": "zeman.png"
+  },
+  {
+    "name": "Sport Vespo",
+    "web": "http://www.vespo.cz",
+    "image": "vespo.jpg"
+  },
+  {
+    "name": "Štěpin - stavební firma",
+    "web": "http://www.stepin.cz",
+    "image": "stepin.png"
+  },
+  {
+    "name": "Penzion Světlý vrch - manželé Huškovi",
+    "web": "http://www.penzionjizerskehory.cz",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Cukrárna u Voborníků",
+    "web": "http://www.pensiontereza.cz",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Penzion Tipos",
+    "web": "http://albrechticetichy.wgz.cz/rubriky/penzion-tip",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Penzion Max",
+    "web": "http://www.maxpension.cz",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Potraviny Jiřetín pod Bukovou",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Řeznickví U Tomášů",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Touche",
+    "web": "http://www.touche.cz",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Živé firmy",
+    "web": "https://www.zivefirmy.cz/",
+    "image": "zivefirmy.png"
+  }
 ]

@@ -23,9 +23,8 @@ class SponsorsPage extends React.Component {
                 <br/><br/>
 
                 <h2 className="centered">Dobří lidé</h2>
-                <p className="text-center"><i>Manželé Benediktovi, Manželé Evjákovi, Manželé Fikarovi, Manželé
-                    Studničkovi, Manželé Engeovi, Manželé Fouňovi, Manželé Petráňovi, Josef Krutiš, Miloslav Zeman,
-                    Zdeněk Pecháček, Rodina Zemanova, Rodina Součkova, Manželé Jandovi.</i></p>
+                <p className="text-center"><i>Manželé Fikarovi, Věra Engeová, Mirek Evják, paní Zelenková, pan Jiří Zeman,
+                    Pan Jan Pipek, pan VOdička.</i></p>
 
             </div>
         )

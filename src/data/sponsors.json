@@ -1,8 +1,28 @@
 [
   {
-    "name": "Obec Jiřetín pod Bukovou",
-    "web": "http://www.jiretinpb.cz",
-    "image": "jiretin-pod-bukovou.png"
+    "name": "Tesařství Petr Smutný",
+    "web": "http://www.smutny-tesarstvi.cz/",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Penzion Sněženka",
+    "web": "http://www.pension-snezenka.cz",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "MUDr. Karel Stuchlík",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Aleš Zeman – Zemní práce",
+    "web": "#",
+    "image": "aleszeman.png"
+  },
+  {
+    "name": "Firma Mitlík s.r.o.",
+    "web": "https://www.stavby-mitlik.cz/",
+    "image": "mitlik.png"
   },
   {
     "name": "Obec Albrechtice v Jizerských horách",
@@ -10,53 +30,53 @@
     "image": "albrechtice.png"
   },
   {
-    "name": "Obec Josefův Důl",
-    "web": "http://josefuvdul.eu",
-    "image": "josefuv-dul.png"
-  },
-  {
-    "name": "MUDr. Stuchlík",
-    "web": "#",
-    "image": "sponsor.png"
-  },
-  {
-    "name": "Manželé Svobodovi",
-    "web": "#",
-    "image": "sponsor.png"
-  },
-  {
-    "name": "Firma Mitlík s.r.o.",
-    "web": "#",
-    "image": "sponsor.png"
-  },
-  {
-    "name": "Aleš Zeman – Zemní práce",
-    "web": "#",
-    "image": "sponsor.png"
-  },
-  {
-    "name": "JAVECAR Jaroslav Veverka",
-    "web": "#",
-    "image": "javecar.png"
-  },
-  {
-    "name": "Fa Sucharda",
-    "web": "http://www.fasuchardaivan.cz",
-    "image": "sucharda.png"
-  },
-  {
     "name": "Senátor Jaroslav Zeman",
     "web": "http://www.jaroslavzeman.cz",
     "image": "zeman.png"
   },
   {
-    "name": "Penzion Světlý vrch - manželé Huškovi",
-    "web": "http://www.penzionjizerskehory.cz",
+    "name": "Obec Jiřetín pod Bukovou",
+    "web": "http://www.jiretinpb.cz",
+    "image": "jiretin-pod-bukovou.png"
+  },
+  {
+    "name": "Obec Josefův Důl",
+    "web": "http://josefuvdul.eu",
+    "image": "josefuv-dul.png"
+  },
+  {
+    "name": "Město Lučany nad Nísou",
+    "web": "https://www.lucany.cz/",
+    "image": "lucany.png"
+  },
+  {
+    "name": "Město Smržovka",
+    "web": "https://www.smrzovka.cz/",
+    "image": "smrzovka.png"
+  },
+  {
+    "name": "Klempířství Sucharda",
+    "web": "http://www.fasuchardaivan.cz",
+    "image": "sucharda.png"
+  },
+  {
+    "name": "Kominictví Jan Pipek",
+    "web": "https://zelinkapipek.sluzby.cz/",
     "image": "sponsor.png"
   },
   {
-    "name": "Cukrárna u Voborníků",
-    "web": "http://www.pensiontereza.cz",
+    "name": "Potraviny Jiřetín",
+    "web": "#",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Penzion Jana Hübnerová",
+    "web": "https://www.penzionhubnerova.cz/",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Penzion Světlý vrch - manželé Huškovi",
+    "web": "http://www.penzionjizerskehory.cz",
     "image": "sponsor.png"
   },
   {
@@ -65,14 +85,9 @@
     "image": "sponsor.png"
   },
   {
-    "name": "Penzion Max",
-    "web": "http://www.maxpension.cz",
-    "image": "sponsor.png"
-  },
-  {
-    "name": "Potraviny Jiřetín pod Bukovou",
+    "name": "JAVECAR Jaroslav Veverka",
     "web": "#",
-    "image": "sponsor.png"
+    "image": "javecar.png"
   },
   {
     "name": "Malířství Holý&Kubík",
@@ -80,8 +95,13 @@
     "image": "sponsor.png"
   },
   {
-    "name": "Řeznickví U Tomášů",
-    "web": "#",
+    "name": "Cukrárna u Voborníků",
+    "web": "http://www.pensiontereza.cz",
+    "image": "sponsor.png"
+  },
+  {
+    "name": "Penzion Max",
+    "web": "http://www.maxpension.cz",
     "image": "sponsor.png"
   }
 ]

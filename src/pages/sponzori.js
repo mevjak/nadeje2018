@@ -23,7 +23,13 @@ class SponsorsPage extends React.Component {
                 <br/><br/>
 
                 <h2 className="centered">Dobří lidé</h2>
-                <p className="text-center"><i>Manželé Fikarovi, Věra Engeová, Mirek Evják, paní Zelenková, Jiří Zeman, Jan Pipek.</i></p>
+                <p className="text-center">
+                    <i>
+                        Manželé Svobodovi, Manželé Fikarovi, Miroslav Evják, Paní Zelenková, Věra Engeová,
+                        Vladimír Enge, Pan Bubník, Simona Veverková, Stanislav Sluka, Ladislava Málková,
+                        Leona&nbsp;Hrunková, Jiří Zeman.
+                    </i>
+                </p>
 
             </div>
         )

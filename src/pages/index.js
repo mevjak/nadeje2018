@@ -50,9 +50,9 @@ class IndexPage extends React.Component {
                 <span
                   className="glyphicon glyphicon-piggy-bank"
                   aria-hidden="true"
-                />&nbsp; Výtěžek sbírky 2018
+                />&nbsp; Výtěžek sbírky 2019
               </h4>
-              <p className="lead">79 788,-</p>
+              <p className="lead">100 190,-</p>
             </div>
 
             <h4 className="banner-heading">Historie běhů v Jiřetíně p.B.</h4>

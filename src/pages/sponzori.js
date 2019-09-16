@@ -25,9 +25,10 @@ class SponsorsPage extends React.Component {
                 <h2 className="centered">Dobří lidé</h2>
                 <p className="text-center">
                     <i>
-                        manželé Svobodovi, manželé Fikarovi, Miroslav Evják, Paní Zelenková, Věra Engeová,
-                        Vladimír Enge, Pan Bubník, Jiří Chlum, Lenka Vurmová, Simona Veverková, Stanislav Sluka,
-                        Ladislava Málková, manželé Hrunkovi, Jiří Zeman.
+                        manželé Svobodovi, pan Bubník, Jiří Chlum, Lenka Vurmová, manželé
+                        Fikarovi, Miroslav Evják, Věra Engeová, Vladimír Enge, Ladislava
+                        Štěpánková, paní Zelenková, manželé Tomášovi, Stanislav Sluka,
+                        Simona Veverková, Jiří Zeman, manželé Hrunkovi, Petr Jelínek.
                     </i>
                 </p>
 

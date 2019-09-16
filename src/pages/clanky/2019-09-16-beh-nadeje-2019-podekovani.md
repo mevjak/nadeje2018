@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Běh naděje 2019 - poděkování
 author: Věra Engeová
 date: 2019-09-16T07:08:00.000Z
-description: Výtěžek letošního ročníku je neuvěřitelných 100.190,-Kč. Všem, kteří mají na tomto úžasném výsledku podíl moc děkujeme! Poděkování patří také všem dobrým lidičkám, kteří nám pomáhají s organizací.
+description: Výtěžek letošního ročníku je neuvěřitelných 100.190,-Kč. Všem, kteří mají na tomto úžasném výsledku podíl, moc děkujeme! Poděkování patří také všem dobrým lidičkám, kteří nám pomáhají s organizací.
 featuredImage: "./images/bn2019.jpg"
 tags:
   - běh naděje
@@ -18,7 +18,7 @@ __Výtěžek letošního ročníku je neuvěřitelných 100  190,-Kč.__
 
 Celou částku obdrží Klinika dětské hematologie a Onkologie Fakultní nemocnice v Motole. 
 
-Všem, kteří mají na tomto úžasném výsledku podíl moc děkujeme! Poděkování patří také všem dobrým lidičkám, kteří nám pomáhají s organizací.
+Všem, kteří mají na tomto úžasném výsledku podíl, moc děkujeme! Poděkování patří také všem dobrým lidičkám, kteří nám pomáhají s organizací.
 
 ### Fotogalerie
 

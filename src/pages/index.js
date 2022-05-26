@@ -40,9 +40,9 @@ class IndexPage extends React.Component {
                 <span
                   className="glyphicon glyphicon-calendar"
                   aria-hidden="true"
-                />&nbsp; Běh naděje 2019
+                />&nbsp; Běh naděje 2022
               </h4>
-              <p className="lead">14. září, 10:00</p>
+              <p className="lead">10. září, 10:10</p>
             </div>
 
             <div className="banner">

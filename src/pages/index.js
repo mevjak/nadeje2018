@@ -42,7 +42,7 @@ class IndexPage extends React.Component {
                   aria-hidden="true"
                 />&nbsp; Běh naděje 2023
               </h4>
-              <p className="lead">9. září, 10:10</p>
+              <p className="lead">9. září, 10:00</p>
             </div>
 
             <div className="banner">

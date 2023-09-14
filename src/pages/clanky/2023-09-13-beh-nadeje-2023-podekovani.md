@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Běh naděje 2023 - poděkování
 author: Věra Engeová
-date: 2022-09-13T07:08:00.000Z
+date: 2023-09-13T07:08:00.000Z
 description: Děkujeme za Vaši účast na Běhu naděje v Jiřetíně p.B. Díky vám, štědrým sponzorům, dražitelům, běžcům a fotbalistům letos zasíláme na Kliniku dětské hematologie a onkologie FN v Motole rekordní částku 135 361,-Kč.
 featuredImage: "./images/bn2023-podekovani.jpg"
 tags:

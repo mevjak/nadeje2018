@@ -52,7 +52,7 @@ class IndexPage extends React.Component {
                   aria-hidden="true"
                 />&nbsp; Výtěžek sbírky 2023
               </h4>
-              <p className="lead">132 361,-</p>
+              <p className="lead">135 361,-</p>
             </div>
 
             <h4 className="banner-heading">Historie běhů v Jiřetíně p.B.</h4>

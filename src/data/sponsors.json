@@ -1,27 +1,32 @@
 [
   {
+    "name": "ESET Research Czech s.r.o.",
+    "web": "https://www.eset.com/cz/",
+    "image": "eset.png"
+  },
+  {
     "name": "Obec Albrechtice v Jizerských horách",
-    "web": "http://www.albrechtice-jh.cz/",
+    "web": "https://www.albrechtice-jh.cz/",
     "image": "albrechtice.png"
   },
   {
     "name": "Obec Jiřetín pod Bukovou",
-    "web": "http://www.jiretinpb.cz",
+    "web": "https://www.jiretinpb.cz",
     "image": "jiretin-pod-bukovou.png"
   },
   {
     "name": "Obec Josefův Důl",
-    "web": "http://josefuvdul.eu",
+    "web": "https://josefuvdul.eu",
     "image": "josefuv-dul.png"
   },
   {
     "name": "Tesařství Petr Smutný",
-    "web": "http://www.smutny-tesarstvi.cz/",
-    "image": "sponsor.png"
+    "web": "https://www.smutny-tesarstvi.cz/",
+    "image": "smutny.png"
   },
   {
     "name": "VESPO s.r.o.",
-    "web": "http://www.vespo.cz/",
+    "web": "https://www.vespo.cz/",
     "image": "vespo.jpg"
   },
   {
@@ -46,17 +51,17 @@
   },
   {
     "name": "Stavební práce Sucharda",
-    "web": "http://www.fasuchardaivan.cz",
+    "web": "https://www.fasuchardaivan.cz",
     "image": "sucharda.png"
   },
   {
     "name": "Firma Mitlík s.r.o.",
-    "web": "https://www.stavby-mitlik.cz/",
+    "web": "#",
     "image": "mitlik.png"
   },
   {
     "name": "Senátor Jaroslav Zeman",
-    "web": "http://www.jaroslavzeman.cz",
+    "web": "#",
     "image": "zeman.png"
   },
   {
@@ -71,7 +76,7 @@
   },
   {
     "name": "Penzion Tipos",
-    "web": "http://albrechticetichy.wgz.cz/rubriky/penzion-tip",
+    "web": "#",
     "image": "sponsor.png"
   },
   {
@@ -81,17 +86,17 @@
   },
   {
     "name": "Penzion Max",
-    "web": "http://www.maxpension.cz",
+    "web": "#",
     "image": "sponsor.png"
   },
   {
     "name": "Cukrárna u Voborníků",
-    "web": "http://www.pensiontereza.cz",
+    "web": "https://www.pensiontereza.cz",
     "image": "sponsor.png"
   },
   {
     "name": "Penzion Světlý vrch - manželé Huškovi",
-    "web": "http://www.penzionjizerskehory.cz",
+    "web": "#",
     "image": "sponsor.png"
   },
   {

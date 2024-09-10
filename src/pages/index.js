@@ -86,15 +86,15 @@ class IndexPage extends React.Component {
                   })}
                 </tbody>
                 <tfoot>
-                <td colSpan={2}>Celkem</td>
-                <td style={{ textAlign: 'right' }}>
+                <th colSpan={2}>Celkem</th>
+                <th style={{ textAlign: 'right' }}>
                   <NumberFormat
                     value={683561}
                     displayType={'text'}
                     thousandSeparator={' '}
                     suffix={',- Kč'}
                   />
-                </td>
+                </th>
                 </tfoot>
               </Table>
             </div>

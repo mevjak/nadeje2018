@@ -88,14 +88,9 @@ class IndexPage extends React.Component {
                 <tfoot>
                 <td colSpan={2}>Celkem</td>
                 <td style={{ textAlign: 'right' }}>
-                  <NumberFormat
-                    value={history.reduce(function(sum, item) {
-                      return sum + item.moneyRaised
-                    }, 0)}
-                    displayType={'text'}
-                    thousandSeparator={' '}
-                    suffix={',- Kč'}
-                  />
+                  {history.reduce(function (sum, item) {
+                    return sum + item.moneyRaised;
+                  }, 0)}
                 </td>
                 </tfoot>
               </Table>

@@ -45,7 +45,7 @@ class NadejePage extends React.Component {
                                 konkrétní nákupy zdravotnických přístrojů a vědeckého vybavení.</p>
 
                             <p>Další informace o <strong>Běhu naděje</strong> najdete na oficiálních
-                                stránkách <a href="http://www.behnadeje.cz" target="_blank">www.behnadeje.cz</a>.
+                                stránkách <a href="https://www.erbia.cz/nadace/#nadeje" target="_blank">www.erbia.cz</a>.
                             </p>
 
                             <h3>Dárcovský příspěvek</h3>
